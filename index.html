@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>Tech Job Consulting</title>
+        <style>
+            body {
+                background-color:#595359;
+                overflow: hidden;
+            }
+            div.container {
+                width: 100vw;
+                height: 100vh;
+                display:flex;
+                justify-content: center;
+                padding: 0 auto;
+                align-items: center;
+            }
+            .card {
+                background-color: white;
+                border-radius: 10px;
+                text-align: center;
+                padding: 20px;
+            }
+
+            ol {
+                padding: 0;
+                list-style-position: inside;
+                width: 100%;
+                font-size: 2rem;
+                line-height: 4rem;
+            }
+            * {
+                color: black;
+                font-family: 'apercu mono', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #particles-js {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                /*background-color: ;*/
+                background-image: url("");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
+                z-index: -1;
+            }
+        </style>
+
+        
+
+    </head>
+
+    <body>
+        <div id="particles-js"></div>
+
+        <div class="container">
+            <div class="card">
+            <h1>Tech Job Consulting</h1>
+            <h3>Run by yours truly, the 3 bonobos: Andy, Sharon, Alex</h3>
+            <h3>3 step process:</h3>
+            <ol>
+                <li>
+                    Git gud
+                </li>
+                <li>
+                    Get <img style="width:150px" src="faang.png"></img>
+                </li>
+                <li>
+                    Profit
+                </li>
+            </ol>
+            </div>
+        </div>
+        <script src="particles.js-master/particles.min.js"></script>
+        <script>
+            particlesJS('particles-js', 
+{
+  "particles": {
+    "number": {
+      "value": 100,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "image",
+      "stroke": {
+        "width": 3,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "particles.js-master/money.png",
+        "width": 10,
+        "height": 10
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 20,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.0,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  }
+});
+        </script>
+    </body>
+</html>
